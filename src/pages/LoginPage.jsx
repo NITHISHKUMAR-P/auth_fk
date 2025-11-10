@@ -90,7 +90,7 @@ export default function LoginPage() {
           <span>Username</span>
           <input
             name="username"
-            placeholder="e.g. alice"
+            
             value={form.username}
             onChange={onChange}
             required
@@ -103,7 +103,7 @@ export default function LoginPage() {
           <input
             name="password"
             type="password"
-            placeholder="••••••••"
+           
             value={form.password}
             onChange={onChange}
             required
